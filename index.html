@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+	 initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Buscador FrontEnd</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+    <section class="main">
+        <!-- Proyectos -->
+        <section class="Proyectos">
+            <h3 class="titulo">Proyectos</h3>
+            <div class="contenedor">
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter=".todo, .bootstrap, .javascript, .php, .java, .laravel, .pwa, .python">Todo</span></li>
+                    <li><span class="filter" data-filter=".bootstrap">Bootstrap</span></li>
+                    <li><span class="filter" data-filter=".javascript">JavaScript</span></li>
+                    <li><span class="filter" data-filter=".jquery">jQuery</span></li>
+                    <li><span class="filter" data-filter=".php">PHP</span></li>
+                    <li><span class="filter" data-filter=".java">Java</span></li>
+                    <li><span class="filter" data-filter=".materialize">Materialize</span></li>
+                    <li><span class="filter" data-filter=".laravel">Laravel</span></li>
+                    <li><span class="filter" data-filter=".pwa">PWA</span></li>
+                    <li><span class="filter" data-filter=".python">Python</span></li>
+                    <li><span class="filter" data-filter=".sql">SQL</span></li>
+                </ul>
+                <div class="row row-cols-1 row-cols-md-4 g-4" id="portfoliolist">
+                    <div class="col portfolio card javascript pwa laravel todo bootstrap materialize sql" data-cat="javascript pwa laravel todo bootstrap materialize sql">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/FusaTour.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Fusatour</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">A-Frame</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Bootstrap</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">JavaScript</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Laravel</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Materialize</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">MySQL</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">PWA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col portfolio php javascript todo bootstrap sql" data-cat="php javascript todo bootstrap sql">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/FreskyPan.png" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">FreskyPan ERP</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Bootstrap</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">HTML5</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">JavaScript</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">MySQL</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col portfolio javascript todo bootstrap" data-cat="javascript todo bootstrap">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/Template_Restaurante.png" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Template Restaurante</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Bootstrap</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">HTML5</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col portfolio javascript todo" data-cat="javascript todo">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/Realidad_Virtual.png" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Realidad Virtual</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">A-Frame</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">HTML5</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">CSS3</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col portfolio bootstrap todo" data-cat="bootstrap todo">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/Template_FlexBox.png" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Template Flexbox</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Bootstrap</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">HTML5</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">FlexBox</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col portfolio javascript python todo bootstrap sql" data-cat="javascript python todo bootstrap sql">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/Perceptron.png" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Perceptron</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Bootstrap</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Html5</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">CSS3</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Flask</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">JavaScript</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">MySQL</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col portfolio javascript php todo sql bootstrap jquery" data-cat="javascript php todo sql bootstrap jquery">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/OWASP_PHP.png" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">OWASP PHP</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Bootstrap</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Html5</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">CSS3</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">JavaScript</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">jQuery</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">MySQL</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col portfolio bootstrap todo" data-cat="bootstrap todo">
+                        <div class="card h-100">
+                            <a href="#">
+                                <img src="img/Template_Material_Design.png" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Template Material Design</h5>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Bootstrap</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">HTML5</span>
+                                <span href="#" class="btn btn-outline-primary btn-sm">Material Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/mixitup.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            var filterList = {
+                init: function() {
+                    $('#portfoliolist').mixItUp({
+                        selectors: {
+                            target: '.portfolio',
+                            filter: '.filter'
+                        },
+                        load: {
+                            filter: '.todo'
+                        }
+                    });
+                }
+            };
+            filterList.init();
+        });
+    </script>
+
+</body>
+
+</html>

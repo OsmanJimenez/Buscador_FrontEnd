@@ -1,0 +1,709 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F6F8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.contenido {
+    padding-top: 70px;
+}
+
+
+/* ----- ----- HABILIDADES ----- ----- */
+
+.servicios {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.servicios .card .sobreposicion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.servicios img {
+    height: 280px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.educacion {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.educacion h5 {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.educacion p {
+    margin-bottom: 10px;
+}
+
+.educacion .certificaciones {
+    margin: auto;
+    overflow: hidden;
+}
+
+.educacion .card .sobreposicion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.educacion .btn {
+    padding: .1rem .2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.educacion h5,
+.educacion p,
+.educacion a {
+    text-align: center;
+}
+
+
+/* ----- ----- HEADER ----- ----- */
+
+header {
+    background: linear-gradient(to bottom, #2E3192, #1BFFFF);
+    background-repeat: no-repeat;
+    max-height: 600px;
+}
+
+header .menu {
+    margin: 40px 0;
+    text-align: right;
+}
+
+header .menu a {
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+
+header .menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+header .contenedor-texto {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 190px 0;
+}
+
+header .contenedor-texto .texto {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .contenedor-texto .texto .nombre {
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+header .contenedor-texto .texto .profesion {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+/* ----- ----- MAIN ----- ----- */
+
+.main .contenedor {
+    overflow: visible;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.main .acerca-de {
+    text-align: center;
+}
+
+.main .acerca-de .foto {
+    margin-top: -150px;
+}
+
+.main .acerca-de .foto .target {
+    padding: 40px;
+}
+
+.main .acerca-de .foto .target .card-body .titulo {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.main .acerca-de .foto .target .card-body .descripcion {
+    font-size: 17px;
+    line-height: 150%;
+    color: #6e7373;
+    text-align: justify;
+}
+
+.main .acerca-de .foto .redes-sociales {
+    background: #1e2b38;
+    padding: 10px 0;
+}
+
+.main .acerca-de .foto .redes-sociales a {
+    color: #000;
+    display: inline;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.main .acerca-de .texto {
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+
+.main .acerca-de .texto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #dd820d;
+    text-align: left;
+}
+
+.main .acerca-de .texto .bold {
+    color: #3895ea;
+    text-decoration: underline;
+}
+
+.main .contenedor .card {
+    box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.main .trabajos {
+    padding: 60px 0;
+}
+
+.main .trabajos .contenedor {
+    overflow: hidden;
+}
+
+.main .trabajos .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .servicio .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .educacion .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .trabajos .contenedor-trabajos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo {
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .thumb img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion {
+    text-align: center;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
+    font-weight: 700;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
+    font-size: 14px;
+    color: #636363;
+}
+
+
+/* ----- ----- CONOCIMIENTOS ----- ----- */
+
+.conocimientos {
+    margin: 5%;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+}
+
+.container .skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container .skill::before {
+    content: "";
+    width: 100%;
+    height: 10px;
+    display: block;
+    position: absolute;
+    background-color: #e0e0e0;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.container .skill .skill-bar:hover::before {
+    height: 100%;
+}
+
+.container .skill p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+
+.container .skill .skill-bar {
+    width: 100%;
+    height: 10px;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    animation: animated 1s both;
+}
+
+.container .skill .skill-bar.skill1 {
+    background-image: linear-gradient(109.6deg, #13F1FC 11.2%, #0470DC 91.1%);
+    width: 70%;
+}
+
+.container .skill .skill-bar.skill2 {
+    background-image: linear-gradient(109.6deg, #65799B 11.3%, #5E2563 100.2%);
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill3 {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #FAD961 0%, #F76B1C 90%);
+    width: 60%;
+}
+
+.container .skill .skill-bar.skill4 {
+    background-image: linear-gradient(109.6deg, #Ef9d43 11.2%, #E75516 91.1%);
+    width: 80%;
+}
+
+.container .skill .skill-bar.skill5 {
+    background: linear-gradient(25deg, #B1EA4D, #459522 50%);
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill6 {
+    background: linear-gradient(25deg, #F54EA2, #FF7676 50%);
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill7 {
+    background: linear-gradient(25deg, #FCDF8A, #F38381 50%);
+    width: 90%;
+}
+
+.container .skill .skill-bar.skill8 {
+    background: linear-gradient(25deg, #D8E015, #F48731 50%);
+    width: 80%;
+}
+
+.container .skill .skill-bar.skill9 {
+    background: linear-gradient(25deg, #F5515F, #A1051D 50%);
+    width: 80%;
+}
+
+.container .skill .skill-bar.skill10 {
+    background: linear-gradient(25deg, #033395, #27F0F0 50%);
+    width: 80%;
+}
+
+.container .skill .skill-bar span {
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container .skill .skill-bar.skill1,
+.container .skill .skill-bar.skill2,
+.container .skill .skill-bar.skill3,
+.container .skill .skill-bar.skill4,
+.container .skill .skill-bar.skill5,
+.container .skill .skill-bar.skill6,
+.container .skill .skill-bar.skill7,
+.container .skill .skill-bar.skill8,
+.container .skill .skill-bar.skill9,
+.container .skill .skill-bar.skill10 {
+    right: 0;
+}
+
+@keyframes animated {
+    from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        transform: matrix3d(0, 0, 0);
+    }
+}
+
+
+/* ----- ----- PORTAFOLIO ----- ----- */
+
+.Proyectos .contenedor {
+    max-width: 100%;
+}
+
+.Proyectos .contenedor .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Proyectos .contenedor .card .btn {
+    margin-top: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.Proyectos .contenedor .card .btn {
+    font-size: 10px;
+}
+
+.main .Proyectos .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .Proyectos {
+    padding: 30px 0;
+}
+
+.Proyectos .card:hover {
+    transform: scale(1.01);
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.644);
+}
+
+#filters {
+    padding-bottom: 3%;
+    list-style: none;
+}
+
+#filters li {
+    float: left;
+}
+
+#filters li span {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+
+#filters li span.active {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0471DD;
+    color: #000;
+    border-radius: 10px;
+}
+
+#portfoliolist .portfolio {
+    width: 23%;
+    margin: 1%;
+    display: none;
+    float: left;
+    padding: 0px;
+}
+
+.Proyectos .card {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* #Tablet (Portrait) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container {
+        width: 768px;
+    }
+}
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+    #portfoliolist .portfolio {
+        width: 95%;
+        margin: 1%;
+    }
+}
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+}
+
+
+/* #Clearing */
+
+
+/* Self Clearing Goodness */
+
+.container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.row:after,
+.clearfix:after {
+    clear: both;
+}
+
+.row,
+.clearfix {
+    zoom: 1;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+/* ----- ----- BLOG ----- ----- */
+
+.responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.main .blog .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .blog {
+    padding: 30px 0;
+}
+
+
+/* ----- ----- CONTACTO ----- ----- */
+
+.contacto {
+    padding: 60px 0;
+}
+
+.contacto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 200;
+    color: #323068;
+    text-align: center;
+}
+
+.contacto .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+.contacto .formulario .boton {
+    margin: auto;
+    background: #593EFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 50px;
+    cursor: pointer;
+}
+
+.contacto .formulario .boton:hover {
+    background: #387bea;
+}
+
+
+/* ----- ----- FOOTER ----- ----- */
+
+.footer {
+    margin-top: 0;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(to top, #2E3192, #249AC9);
+    color: #fff;
+}
+
+
+/* ----- ----- BARRA DESPLAZAMIENTO ----- ----- */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* ----- ----- MEDIA QUERIES ----- ----- */
+
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+    }
+    .main .trabajos .contenedor-trabajos .trabajo {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .contenedor-texto .texto .nombre {
+        font-size: 35px;
+    }
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px;
+    }
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
